@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Objects</title>
+  <script src="webgl-utils.js"></script>
+  <script src="shader-utils.js"></script>
+  <script src="gl-matrix-2.4.0/dist/gl-matrix-min.js"></script>
+  <script src="geometry/Object3D.js"></script>
+  <script src="geometry/Cone.js"></script>
+  <script src="geometry/Sphere.js"></script>
+  <script src="geometry/PolygonalPrism.js"></script>
+  <script src="render.js"></script>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    #container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background: lavender;
+    }
+  </style>
+</head>
+<body onload="main()">
+  <h2>Cityscape</h2>
+  <div>
+      <table>
+          <tr>
+            <th>
+              <table border="1px">Controls
+                <tr><th>Forward </th><th>W</th><th>Turn Left</th><th>A</th>
+                </tr>
+                <tr><th>Backward </th><th>S</th><th>Turn Right</th><th>D</th>
+                </tr>
+                <tr><th>Pitch+ </th><th>Q</th><th>Roll+ </th><th>Z</th>
+                </tr>
+                <tr><th>Pitch- </th><th>E</th><th>Roll- </th><th>C</th></tr>
+              </table>
+            </th>
+            <th>Auto-movement
+                <select id="Auto Move">
+                  <option id="0">On</option>
+                  <option id="1">Off</option>
+              </select>
+            </th>
+          </tr>
+      </table>
+  </div>
+  <div id="container">
+    <canvas id="my-canvas"></canvas>
+  </div>
+</body>
+</html>
