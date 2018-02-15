@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb63f4f8-96f7-407b-9a4b-0c4cae6e52c1" name="Default" comment="" />
+    <list default="true" id="eb63f4f8-96f7-407b-9a4b-0c4cae6e52c1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/geometry/Sphere.js" afterPath="$PROJECT_DIR$/geometry/Sphere.js" />
+      <change beforePath="$PROJECT_DIR$/render.js" afterPath="$PROJECT_DIR$/render.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,25 +18,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
+            <state relative-caret-position="1034">
               <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="render.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="render.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/render.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
+            <state relative-caret-position="410">
+              <caret line="195" column="17" lean-forward="false" selection-start-line="195" selection-start-column="17" selection-end-line="195" selection-end-column="17" />
               <folding>
-                <element signature="e#568#2274#0" expanded="false" />
-                <element signature="e#2383#4341#0" expanded="false" />
-                <element signature="n#!!block;n#createObject#0" expanded="false" />
+                <element signature="e#651#2357#0" expanded="false" />
+                <element signature="e#2466#4424#0" expanded="false" />
                 <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
               </folding>
             </state>
@@ -42,8 +45,8 @@
       <file leaf-file-name="Sphere.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geometry/Sphere.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="1180">
+              <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -76,6 +79,9 @@
       <find>fan</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -83,9 +89,9 @@
         <option value="$PROJECT_DIR$/geometry/PolygonalPrism.js" />
         <option value="$PROJECT_DIR$/geometry/Object3D.js" />
         <option value="$PROJECT_DIR$/geometry/Cone.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/geometry/Sphere.js" />
         <option value="$PROJECT_DIR$/render.js" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -101,6 +107,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -183,12 +190,12 @@
       <workItem from="1518544480036" duration="12403000" />
       <workItem from="1518566204199" duration="4451000" />
       <workItem from="1518580545423" duration="752000" />
-      <workItem from="1518650216954" duration="19480000" />
+      <workItem from="1518650216954" duration="20792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64544000" />
+    <option name="totallyTimeSpent" value="65856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -198,10 +205,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -224,7 +231,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -234,9 +241,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#568#2274#0" expanded="false" />
-            <element signature="e#2383#4341#0" expanded="false" />
-            <element signature="n#!!block;n#createObject#0" expanded="false" />
+            <element signature="e#651#2357#0" expanded="false" />
+            <element signature="e#2466#4424#0" expanded="false" />
             <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
           </folding>
         </state>
@@ -255,9 +261,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#568#2274#0" expanded="false" />
-            <element signature="e#2383#4341#0" expanded="false" />
-            <element signature="n#!!block;n#createObject#0" expanded="false" />
+            <element signature="e#651#2357#0" expanded="false" />
+            <element signature="e#2466#4424#0" expanded="false" />
             <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
           </folding>
         </state>
@@ -276,9 +281,8 @@
         <state relative-caret-position="4180">
           <caret line="190" column="40" lean-forward="true" selection-start-line="190" selection-start-column="40" selection-end-line="190" selection-end-column="40" />
           <folding>
-            <element signature="e#568#2274#0" expanded="false" />
-            <element signature="e#2383#4341#0" expanded="false" />
-            <element signature="n#!!block;n#createObject#0" expanded="false" />
+            <element signature="e#651#2357#0" expanded="false" />
+            <element signature="e#2466#4424#0" expanded="false" />
             <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
           </folding>
         </state>
@@ -328,9 +332,8 @@
         <state relative-caret-position="2310">
           <caret line="105" column="101" lean-forward="false" selection-start-line="105" selection-start-column="101" selection-end-line="105" selection-end-column="101" />
           <folding>
-            <element signature="e#568#2274#0" expanded="false" />
-            <element signature="e#2383#4341#0" expanded="false" />
-            <element signature="n#!!block;n#createObject#0" expanded="false" />
+            <element signature="e#651#2357#0" expanded="false" />
+            <element signature="e#2466#4424#0" expanded="false" />
             <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
           </folding>
         </state>
@@ -387,9 +390,8 @@
         <state relative-caret-position="704">
           <caret line="105" column="101" lean-forward="false" selection-start-line="105" selection-start-column="101" selection-end-line="105" selection-end-column="101" />
           <folding>
-            <element signature="e#568#2274#0" expanded="false" />
-            <element signature="e#2383#4341#0" expanded="false" />
-            <element signature="n#!!block;n#createObject#0" expanded="false" />
+            <element signature="e#651#2357#0" expanded="false" />
+            <element signature="e#2466#4424#0" expanded="false" />
             <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
           </folding>
         </state>
@@ -423,9 +425,8 @@
         <state relative-caret-position="2266">
           <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding>
-            <element signature="e#568#2274#0" expanded="false" />
-            <element signature="e#2383#4341#0" expanded="false" />
-            <element signature="n#!!block;n#createObject#0" expanded="false" />
+            <element signature="e#651#2357#0" expanded="false" />
+            <element signature="e#2466#4424#0" expanded="false" />
             <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
           </folding>
         </state>
@@ -444,9 +445,8 @@
         <state relative-caret-position="2750">
           <caret line="125" column="25" lean-forward="false" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
           <folding>
-            <element signature="e#568#2274#0" expanded="false" />
-            <element signature="e#2383#4341#0" expanded="false" />
-            <element signature="n#!!block;n#createObject#0" expanded="false" />
+            <element signature="e#651#2357#0" expanded="false" />
+            <element signature="e#2466#4424#0" expanded="false" />
             <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
           </folding>
         </state>
@@ -515,32 +515,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/geometry/Sphere.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="1180">
+          <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/render.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
+        <state relative-caret-position="410">
+          <caret line="195" column="17" lean-forward="false" selection-start-line="195" selection-start-column="17" selection-end-line="195" selection-end-column="17" />
           <folding>
-            <element signature="e#568#2274#0" expanded="false" />
-            <element signature="e#2383#4341#0" expanded="false" />
-            <element signature="n#!!block;n#createObject#0" expanded="false" />
+            <element signature="e#651#2357#0" expanded="false" />
+            <element signature="e#2466#4424#0" expanded="false" />
             <element signature="n#!!block;n#resizeWindow#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>

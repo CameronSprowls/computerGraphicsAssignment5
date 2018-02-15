@@ -1,5 +1,7 @@
 /**
- * Created by Hans Dulimarta. Edited by Cameron Sprowls
+ * Created by Hans Dulimarta.
+ *
+ * Edited by Cameron Sprowls
  */
 let canvas;
 let gl;
@@ -8,12 +10,14 @@ let allObjs = [];
 let projUnif;
 let projMat, viewMat;
 
+
+/* Global variables for consistency through the shapes */
 const SIZE_OF_CITY = 100;
 const SHAPE_RADIUS = .1;
 
+/* Program essentials */
 let autoMove = true;
 let time = Date.now();
-
 let camera = mat4.create();
 
 function main() {
@@ -121,6 +125,7 @@ function main() {
         window.requestAnimationFrame(drawScene);
     });
 
+    // Listener for the drop down menu for the auto-move feature
     const movementMode = document.getElementById("Auto Move");
     movementMode.addEventListener('click', event => {
         switch (movementMode.selectedIndex) {
@@ -146,15 +151,21 @@ function drawScene() {
     }
 }
 
+/***
+ * Function that moves the camera forward on a different
+ * thread so the user can still move around.
+ */
 function moveForward() {
     if (autoMove) {
         if (new Date() - time > 10) {
+            // Update view matrix via the camera
             mat4.invert(camera, viewMat);
             mat4.translate(camera, camera, vec3.fromValues(0, 0, -.01));
             mat4.invert(viewMat, camera);
 
             time = Date.now();
         }
+        // Refresh screen then keep running in a loop
         gl.uniformMatrix4fv(viewUnif, false, viewMat);
         drawScene();
         window.requestAnimFrame(moveForward);
@@ -186,7 +197,7 @@ function createObject() {
                 SHAPE_RADIUS,
                 5,
                 undefined);
-            // Move it up so it's not in the ground
+            // Used to move the sphere up to ground level so it's not in the ground
             shape.coordFrame[14] += SHAPE_RADIUS;
         } else {
             shape = new Cone(gl, {
@@ -195,7 +206,7 @@ function createObject() {
             });
         }
 
-        // Weird way to set up a block, but it's the first I thought of, so I guess I'll leave it
+        // Weird way to set up a block, but it's the first thing I thought of, so I guess I'll leave it
         if (i%9 === 0)
             count = 0;
 
